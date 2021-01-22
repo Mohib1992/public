@@ -85,5 +85,21 @@ $(function() {
                 return false;
             }
     });
+
+    $('#contactForm').submit(function (event) {
+        event.preventDefault();
+        var form = $(this);
+        var name = form.find('input[name="name"]').val();        
+        var message = form.find('textarea[name="message"]').val();
+        
+        form.each(function () {
+            this.reset();
+        })
+        
+        window.open('mailto:moin.php@gmail.com?subject='+name+'&body='+message);
+
+        
+    });
+
     
 });

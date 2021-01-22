@@ -113,9 +113,9 @@
 	    margin-bottom: 30px;
 	}
 
-	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
+	/* .section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
 	    margin-bottom: 0;
-	}
+	}	 */
 
 	/* Section: Counters */
 	.section-counters {
@@ -368,11 +368,7 @@
 	.portfolio-item,
 	.section-portfolio .col-md-4:nth-last-child(-n+3) .portfolio-item {
 		margin-bottom: 15px; 
-	}
-
-	.section-portfolio .col-md-4:nth-last-child(-n+2) .portfolio-item {
-		margin-bottom: 0px;
-	}
+	}	
 
 	.section-services .container {
 		width: 90%;
